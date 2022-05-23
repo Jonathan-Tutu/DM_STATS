@@ -1,0 +1,614 @@
+﻿Id;Salaire annuel net;Age;Sexe;CSP
+A1001;48911;44;Homme;Cadre
+A1159;51640;58;Homme;Cadre
+A1245;45587;56;Homme;Ouvrier
+A1246;25308;32;Homme;Ouvrier
+A1287;31194;53;Homme;Prof Interm
+A1288;26682;35;Homme;Ouvrier
+A1289;36268;40;Femme;Technicien
+A1320;27937;36;Homme;Prof Interm
+A1321;28123;44;Homme;Ouvrier
+A1393;32221;44;Homme;Ouvrier
+A1394;37124;50;Homme;Cadre
+A1405;31836;46;Homme;Cadre
+A1436;49036;62;Homme;Cadre
+A1477;29534;36;Homme;Technicien
+A1488;25525;45;Homme;Prof Interm
+A1509;30858;46;Femme;Technicien
+A1511;46213;50;Homme;Cadre
+A1542;25134;45;Homme;Technicien
+A1616;47160;54;Homme;Cadre
+A1648;28021;48;Femme;Prof Interm
+A1659;22361;36;Homme;Ouvrier
+A1710;24595;41;Homme;Ouvrier
+A1721;16623;26;Homme;Ouvrier
+A1733;28779;52;Homme;Technicien
+A1734;35180;50;Homme;Ouvrier
+A1765;47059;62;Femme;Cadre
+A1786;53895;42;Homme;Prof Interm
+A1787;53811;60;Homme;Cadre
+A1828;18359;26;Femme;Technicien
+A1830;33081;33;Femme;Cadre
+A1839;40738;32;Femme;Cadre
+A1841;28007;30;Homme;Technicien
+A1882;32983;47;Homme;Ouvrier
+A1893;30906;56;Homme;Technicien
+A1905;52256;48;Homme;Prof Interm
+A1957;19704;22;Homme;Ouvrier
+A1968;35684;57;Homme;Prof Interm
+A1969;28570;31;Homme;Ouvrier
+A1980;18624;41;Femme;Ouvrier
+A2021;53233;51;Homme;Cadre
+A2032;18829;40;Femme;Ouvrier
+A2043;25400;32;Femme;Cadre
+A2074;30055;45;Homme;Technicien
+A2075;31566;40;Homme;Ouvrier
+A2126;33333;60;Homme;Technicien
+A2127;20422;42;Homme;Ouvrier
+A2229;48600;44;Homme;Prof Interm
+A2240;53452;59;Homme;Cadre
+A2281;51703;61;Homme;Technicien
+A2312;29910;40;Homme;Ouvrier
+A2403;32354;58;Femme;Technicien
+A2414;18175;38;Homme;Ouvrier
+A2435;41907;48;Homme;Ouvrier
+A2436;21713;42;Homme;Technicien
+A2467;23038;28;Homme;Ouvrier
+A2468;16183;51;Homme;Ouvrier
+A2529;20950;45;Homme;Ouvrier
+A2540;44952;44;Homme;Cadre
+A2551;20429;36;Femme;Technicien
+A2552;32458;51;Homme;Technicien
+A2553;25125;30;Homme;Technicien
+A2635;47118;42;Homme;Cadre
+A2706;19471;41;Femme;Technicien
+A2717;43518;40;Homme;Technicien
+A2738;41375;57;Femme;Cadre
+A5174;30847;43;Homme;Ouvrier
+A5175;12156;27;Femme;Employé
+A5265;45543;55;Homme;Technicien
+A5286;32952;43;Homme;Ouvrier
+A5317;38797;44;Femme;Technicien
+A5318;42065;42;Homme;Technicien
+A5319;13741;33;Femme;Employé
+A5320;47720;42;Homme;Cadre
+A5331;13967;37;Femme;Ouvrier
+A5362;33969;41;Homme;Technicien
+A5423;30845;54;Homme;Technicien
+A5424;40005;49;Homme;Ouvrier
+A5445;34547;35;Homme;Technicien
+A5467;36044;54;Femme;Technicien
+A5478;28246;42;Femme;Ouvrier
+A5591;33031;58;Homme;Ouvrier
+A5602;25419;48;Homme;Ouvrier
+A5613;20741;46;Homme;Ouvrier
+A5654;23741;43;Homme;Ouvrier
+A5665;32958;28;Homme;Ouvrier
+A5666;39678;24;Femme;Cadre
+A5687;15688;44;Homme;Technicien
+A5698;51543;60;Homme;Prof Interm
+A5719;34037;50;Homme;Ouvrier
+A5771;41184;48;Femme;Cadre
+A5822;45370;38;Homme;Cadre
+A5843;36831;39;Homme;Prof Interm
+A5844;28720;28;Homme;Ouvrier
+A5905;32264;52;Homme;Prof Interm
+A5967;32944;58;Homme;Technicien
+A5978;33986;48;Homme;Technicien
+A5979;24846;34;Femme;Technicien
+A5980;40018;54;Homme;Prof Interm
+A6021;42362;31;Homme;Technicien
+A6032;41354;60;Homme;Technicien
+A6083;40086;48;Homme;Prof Interm
+A6094;44275;36;Homme;Cadre
+A6145;35177;28;Homme;Ouvrier
+A6156;27734;28;Homme;Ouvrier
+A6207;25078;28;Homme;Ouvrier
+A6208;31614;61;Femme;Ouvrier
+A6249;28320;24;Femme;Technicien
+A6300;32358;27;Homme;Ouvrier
+A6311;31229;27;Homme;Ouvrier
+A6322;43091;54;Homme;Technicien
+A6323;42933;42;Homme;Prof Interm
+A6354;40539;48;Homme;Technicien
+A6355;38562;54;Homme;Prof Interm
+A6366;36736;44;Homme;Ouvrier
+A6377;44734;52;Femme;Technicien
+A6398;32013;51;Femme;Prof Interm
+A6419;39659;48;Homme;Technicien
+B4920;23548;34;Homme;Ouvrier
+B4951;18741;36;Homme;Ouvrier
+B5002;26306;58;Femme;Ouvrier
+B5003;42587;52;Homme;Ouvrier
+B5004;24242;28;Homme;Ouvrier
+B5015;22015;38;Homme;Ouvrier
+B5016;28042;60;Homme;Ouvrier
+B5027;50360;44;Homme;Cadre
+B5048;35328;38;Homme;Technicien
+B5059;19770;41;Homme;Ouvrier
+B5070;15366;26;Homme;Ouvrier
+B5112;33195;33;Homme;Cadre
+B5113;17196;33;Homme;Technicien
+B5135;23464;45;Homme;Technicien
+B5156;27978;47;Femme;Technicien
+B5177;37220;48;Femme;Cadre
+B5228;21837;50;Femme;Ouvrier
+B5259;18696;29;Homme;Ouvrier
+B5290;39577;34;Homme;Ouvrier
+B5311;39500;37;Homme;Ouvrier
+B5312;20016;50;Homme;Technicien
+B5323;34572;31;Homme;Cadre
+B5324;52304;44;Homme;Cadre
+B5365;22879;54;Homme;Ouvrier
+B5376;35098;50;Femme;Prof Interm
+B5387;16733;46;Homme;Ouvrier
+B5419;25367;52;Homme;Prof Interm
+B5420;22289;55;Homme;Ouvrier
+B5431;22446;50;Homme;Ouvrier
+B5462;37778;56;Femme;Cadre
+B5483;43535;51;Homme;Prof Interm
+B5525;39559;48;Homme;Ouvrier
+B5536;27694;28;Femme;Cadre
+B5556;17606;49;Femme;Employé
+B5557;23247;50;Femme;Ouvrier
+B5599;20186;38;Homme;Ouvrier
+B5610;17901;44;Femme;Employé
+B5651;19787;40;Homme;Technicien
+B5712;48199;58;Homme;Prof Interm
+B5763;42573;42;Homme;Prof Interm
+B5764;16214;24;Homme;Ouvrier
+B5765;22493;47;Femme;Employé
+B5805;21719;58;Femme;Ouvrier
+B5826;18520;54;Femme;Ouvrier
+B5847;22536;53;Femme;Employé
+B5850;20654;44;Femme;Ouvrier
+B5859;20758;46;Femme;Prof Interm
+B5881;22036;43;Femme;Ouvrier
+B5902;16227;41;Femme;Ouvrier
+B5923;39749;38;Homme;Cadre
+B5944;16535;35;Homme;Ouvrier
+B5976;37304;56;Homme;Ouvrier
+B5977;35609;53;Homme;Ouvrier
+B5988;27774;40;Homme;Ouvrier
+B5999;28903;39;Homme;Ouvrier
+B6000;26324;25;Femme;Prof Interm
+B7016;32825;26;Homme;Cadre
+B8837;23268;38;Femme;Prof Interm
+C5422;43321;56;Homme;Cadre
+C5877;21817;45;Homme;Employé
+C5989;45692;38;Homme;Cadre
+C6181;30651;46;Homme;Cadre
+C6353;22006;48;Homme;Employé
+C6357;23498;47;Femme;Employé
+C8360;35643;30;Femme;Cadre
+C9873;42772;44;Homme;Technicien
+C9904;28474;52;Homme;Ouvrier
+C9915;37246;38;Homme;Ouvrier
+C9936;18780;32;Femme;Prof Interm
+C9942;20661;32;Femme;Employé
+C9990;21030;29;Femme;Employé
+C9999;18458;53;Homme;Ouvrier
+D1011;24618;51;Femme;Employé
+D1012;22734;36;Homme;Ouvrier
+D1023;20203;44;Femme;Employé
+D1055;13264;34;Femme;Ouvrier
+D1066;20404;42;Homme;Ouvrier
+D1077;46872;64;Homme;Cadre
+D1148;48562;36;Homme;Cadre
+D1169;51447;48;Homme;Technicien
+D1180;26801;54;Homme;Prof Interm
+D1211;40297;44;Homme;Cadre
+D1222;32065;47;Homme;Ouvrier
+D1223;14141;28;Femme;Ouvrier
+D1244;19756;52;Homme;Ouvrier
+D1376;41763;50;Homme;Prof Interm
+D1377;17224;36;Homme;Prof Interm
+D1398;16865;52;Femme;Ouvrier
+D1449;44426;60;Homme;Cadre
+D1460;22426;52;Homme;Ouvrier
+D1501;35984;52;Femme;Prof Interm
+D1512;29927;43;Homme;Technicien
+D1536;16739;36;Femme;Employé
+D1543;29594;42;Homme;Technicien
+D1554;14978;44;Homme;Ouvrier
+D1635;17607;26;Homme;Ouvrier
+D1676;17252;42;Femme;Employé
+D1677;47468;68;Homme;Cadre
+D1709;26128;39;Femme;Employé
+D1718;21037;47;Homme;Ouvrier
+D1720;19781;35;Femme;Prof Interm
+D1721;21189;58;Homme;Technicien
+D1729;16813;61;Homme;Ouvrier
+D1742;34873;52;Homme;Technicien
+D1793;31177;37;Homme;Cadre
+D1824;26243;41;Femme;Employé
+D1866;25226;44;Femme;Technicien
+D1867;24972;42;Homme;Ouvrier
+D1868;24497;44;Homme;Technicien
+D1919;23214;40;Homme;Ouvrier
+D1920;24771;46;Homme;Ouvrier
+D1921;25448;46;Homme;Ouvrier
+D1952;21958;38;Femme;Ouvrier
+D1953;39395;52;Homme;Ouvrier
+D1974;36161;54;Femme;Cadre
+D2015;23753;37;Homme;Technicien
+D2026;14500;23;Homme;Ouvrier
+D2050;46871;38;Homme;Cadre
+D2061;17928;41;Homme;Ouvrier
+D2072;16557;58;Femme;Ouvrier
+D2104;14682;34;Homme;Ouvrier
+D2110;34341;48;Femme;Employé
+D2115;17809;52;Femme;Prof Interm
+D2116;28240;30;Femme;Technicien
+D2127;31224;38;Femme;Employé
+D5983;18683;40;Femme;Employé
+D8931;34030;46;Homme;Prof Interm
+D9873;49497;46;Femme;Cadre
+E1439;49175;48;Homme;Cadre
+E1451;42971;35;Homme;Prof Interm
+E1506;50134;57;Homme;Cadre
+E1804;23597;56;Homme;Ouvrier
+E2088;28919;27;Homme;Cadre
+E4421;44262;42;Homme;Cadre
+E5053;25200;46;Homme;Technicien
+E6304;48526;46;Homme;Cadre
+E6979;49265;50;Homme;Cadre
+E7535;45250;60;Homme;Cadre
+F2226;21189;36;Homme;Technicien
+F2287;21165;36;Femme;Ouvrier
+F2288;27481;46;Homme;Ouvrier
+F2329;35180;48;Homme;Ouvrier
+F2340;43730;54;Homme;Cadre
+F2435;19865;27;Homme;Employé
+F2472;41797;51;Homme;Technicien
+F2473;22459;45;Femme;Ouvrier
+F2474;20059;30;Homme;Employé
+F2495;31623;36;Homme;Ouvrier
+F2522;25491;33;Femme;Employé
+F2536;35382;44;Homme;Technicien
+F2547;26808;40;Homme;Technicien
+F2629;25501;36;Femme;Employé
+F2630;34178;42;Homme;Technicien
+F2641;33787;30;Homme;Ouvrier
+F2672;36870;54;Homme;Ouvrier
+F2723;14337;52;Homme;Ouvrier
+F2734;47901;37;Homme;Prof Interm
+F2735;33852;50;Homme;Prof Interm
+F2766;41156;36;Homme;Ouvrier
+F2787;44358;60;Homme;Cadre
+F2818;30768;49;Femme;Technicien
+F2900;36567;52;Homme;Prof Interm
+F2909;30760;32;Homme;Technicien
+F2931;23357;58;Femme;Prof Interm
+F2962;43409;47;Homme;Prof Interm
+F2993;29887;54;Homme;Ouvrier
+F3024;28224;48;Homme;Ouvrier
+F3025;33348;29;Femme;Cadre
+F3046;32032;39;Homme;Technicien
+F3047;28595;50;Femme;Prof Interm
+F3068;29673;24;Homme;Ouvrier
+F3079;19336;40;Homme;Ouvrier
+F3110;32746;49;Homme;Technicien
+F3111;29060;31;Homme;Cadre
+F3162;28725;52;Homme;Technicien
+F3253;34071;44;Homme;Technicien
+F3304;15165;30;Homme;Technicien
+F3315;39213;42;Homme;Cadre
+F3336;35230;39;Homme;Prof Interm
+F3377;23935;50;Femme;Ouvrier
+F3418;35454;46;Homme;Ouvrier
+F3459;36068;38;Homme;Prof Interm
+F3470;19971;44;Homme;Ouvrier
+F3471;39169;50;Homme;Prof Interm
+F3512;14628;38;Homme;Ouvrier
+F3524;19129;25;Femme;Technicien
+F3575;26568;23;Homme;Ouvrier
+F3696;39703;32;Femme;Cadre
+F3727;48965;41;Homme;Cadre
+F3768;26165;30;Homme;Ouvrier
+F3769;30989;29;Homme;Technicien
+F3911;23914;43;Homme;Ouvrier
+F3922;42010;50;Homme;Prof Interm
+F3933;32028;42;Femme;Cadre
+F3944;31993;44;Homme;Technicien
+F4005;25380;47;Femme;Employé
+F4054;25315;51;Femme;Employé
+F4066;30471;53;Homme;Prof Interm
+F4227;42135;44;Homme;Technicien
+F4238;43805;55;Femme;Cadre
+F4269;33236;48;Homme;Prof Interm
+F4290;36391;54;Femme;Technicien
+F4351;36230;48;Femme;Cadre
+F4633;26199;43;Femme;Technicien
+F4704;26055;37;Homme;Ouvrier
+F4796;23483;54;Homme;Ouvrier
+F4827;21556;44;Homme;Ouvrier
+F4881;27176;48;Homme;Prof Interm
+F4892;34218;35;Femme;Cadre
+F4993;34632;52;Homme;Ouvrier
+F5034;35153;43;Homme;Ouvrier
+F5096;32756;45;Homme;Ouvrier
+F5117;21797;54;Homme;Ouvrier
+F5289;27414;60;Homme;Ouvrier
+F5330;29372;52;Homme;Ouvrier
+F5421;33905;49;Homme;Ouvrier
+F5442;29923;34;Homme;Technicien
+F5463;23683;34;Homme;Ouvrier
+F5474;29579;52;Femme;Prof Interm
+F5515;20392;40;Homme;Ouvrier
+F5526;22715;46;Femme;Employé
+F5535;23059;45;Femme;Employé
+F5577;49930;52;Homme;Prof Interm
+F5618;18067;36;Homme;Ouvrier
+F5629;32077;59;Homme;Technicien
+F5630;36829;35;Homme;Ouvrier
+F5641;30242;34;Homme;Ouvrier
+F5682;43829;32;Homme;Ouvrier
+F5763;34381;44;Homme;Ouvrier
+F5804;43852;57;Homme;Prof Interm
+F5815;32065;56;Homme;Technicien
+F5846;44196;52;Homme;Prof Interm
+F5968;21000;33;Homme;Ouvrier
+F6029;23287;50;Homme;Ouvrier
+F6080;27158;40;Homme;Ouvrier
+F6131;43621;49;Homme;Ouvrier
+F6172;50217;52;Homme;Prof Interm
+F6173;41689;60;Homme;Technicien
+F6344;24554;56;Homme;Technicien
+F6405;42094;38;Femme;Cadre
+F6426;22759;35;Homme;Technicien
+F6477;42268;58;Femme;Prof Interm
+F6560;33314;34;Homme;Technicien
+F6621;38328;54;Femme;Cadre
+F6662;18344;44;Femme;Technicien
+F6683;35658;48;Homme;Ouvrier
+F6724;28601;46;Homme;Technicien
+F6775;52952;60;Homme;Cadre
+F6876;44743;59;Femme;Cadre
+F6957;52459;55;Homme;Cadre
+F7028;20486;41;Homme;Ouvrier
+F7079;15431;56;Homme;Ouvrier
+F7120;28018;38;Homme;Ouvrier
+F7131;26034;46;Homme;Technicien
+F7132;30756;50;Homme;Technicien
+F7143;35919;56;Homme;Prof Interm
+F7144;34450;48;Homme;Prof Interm
+F7195;28993;46;Homme;Ouvrier
+F7236;32838;32;Homme;Technicien
+F7458;41131;50;Homme;Ouvrier
+F7459;35488;46;Homme;Prof Interm
+F7460;31562;34;Homme;Ouvrier
+F7551;33182;54;Homme;Ouvrier
+F7552;23026;54;Homme;Ouvrier
+F7563;37875;42;Homme;Prof Interm
+F7644;50902;43;Homme;Cadre
+F7665;22224;31;Homme;Technicien
+F7766;25620;28;Femme;Technicien
+F7817;31643;58;Homme;Technicien
+F7870;37908;49;Homme;Prof Interm
+F7921;39341;46;Homme;Ouvrier
+F7972;42343;42;Homme;Ouvrier
+F8013;25584;26;Homme;Ouvrier
+F8054;34384;49;Homme;Ouvrier
+F8165;43952;44;Homme;Technicien
+F8176;37711;52;Femme;Cadre
+F8177;26996;34;Homme;Prof Interm
+F8258;23377;35;Homme;Prof Interm
+F8259;45182;48;Homme;Cadre
+F8351;28902;38;Homme;Technicien
+F8422;28253;42;Femme;Technicien
+F8553;19329;60;Femme;Prof Interm
+F8584;45947;56;Femme;Cadre
+F8716;51952;60;Homme;Cadre
+F8737;31632;46;Homme;Ouvrier
+F8788;45139;56;Homme;Cadre
+F8809;30482;44;Femme;Prof Interm
+F8850;50125;50;Homme;Cadre
+F8861;43307;55;Homme;Cadre
+F8902;27136;47;Femme;Prof Interm
+F9003;25823;28;Homme;Technicien
+F9034;29718;33;Homme;Technicien
+F9055;38347;46;Homme;Cadre
+F9126;22512;46;Homme;Ouvrier
+F9197;26467;37;Homme;Ouvrier
+F9228;33400;39;Femme;Prof Interm
+F9239;34771;49;Homme;Employé
+F9246;34584;46;Homme;Employé
+F9290;39515;48;Homme;Technicien
+F9321;14865;23;Homme;Ouvrier
+F9332;27247;58;Femme;Prof Interm
+F9333;31459;31;Femme;Technicien
+F9354;26285;52;Homme;Ouvrier
+F9385;17410;21;Homme;Technicien
+F9456;38452;48;Homme;Ouvrier
+F9477;20880;54;Femme;Prof Interm
+F9508;17610;56;Homme;Ouvrier
+F9529;45741;49;Homme;Cadre
+F9740;30196;50;Homme;Ouvrier
+F9841;32466;38;Homme;Prof Interm
+F9882;48491;34;Homme;Cadre
+F9953;31931;42;Homme;Cadre
+F9964;34562;33;Femme;Prof Interm
+F9975;27428;48;Homme;Technicien
+G1001;32475;46;Homme;Ouvrier
+G1002;27185;54;Homme;Technicien
+G1003;26405;32;Homme;Technicien
+G1064;34982;49;Homme;Technicien
+G1085;25780;41;Femme;Technicien
+G1116;16092;54;Homme;Ouvrier
+G1127;47631;54;Femme;Cadre
+G1138;28709;54;Homme;Technicien
+G1159;35939;44;Homme;Cadre
+G1170;40661;48;Homme;Technicien
+G1191;25846;53;Homme;Cadre
+G1202;42053;46;Homme;Prof Interm
+G1233;40990;52;Homme;Technicien
+G1244;19590;48;Homme;Ouvrier
+G1245;32646;63;Homme;Ouvrier
+G2208;46758;49;Homme;Cadre
+G7189;27945;37;Homme;Ouvrier
+G7190;26842;50;Homme;Prof Interm
+G7201;41860;40;Homme;Cadre
+G7252;21248;29;Homme;Ouvrier
+G7304;18635;35;Homme;Ouvrier
+G7305;21943;37;Homme;Ouvrier
+G7326;30582;38;Homme;Ouvrier
+G7357;28840;36;Homme;Technicien
+G7368;23466;30;Homme;Ouvrier
+G7399;29567;51;Homme;Ouvrier
+G7420;30103;40;Homme;Ouvrier
+G7431;45182;41;Femme;Prof Interm
+G7432;27418;39;Homme;Prof Interm
+G7483;28841;43;Homme;Technicien
+G7534;44933;56;Homme;Cadre
+G7565;24441;40;Homme;Ouvrier
+G7576;38138;56;Homme;Technicien
+G7577;23835;48;Homme;Ouvrier
+G7588;32429;55;Homme;Ouvrier
+G7599;35528;58;Femme;Prof Interm
+G7600;19067;32;Homme;Ouvrier
+G7601;17395;54;Femme;Ouvrier
+G7632;22325;56;Homme;Ouvrier
+G7654;26625;46;Femme;Prof Interm
+G7725;20820;48;Homme;Technicien
+G7746;31506;50;Homme;Prof Interm
+G7767;37777;50;Homme;Prof Interm
+G7778;28991;43;Homme;Ouvrier
+G7819;27325;42;Homme;Prof Interm
+G7840;31368;46;Homme;Prof Interm
+G7851;17935;38;Homme;Ouvrier
+G7862;25521;42;Femme;Prof Interm
+G7873;19246;48;Homme;Ouvrier
+G7874;32166;50;Homme;Prof Interm
+G7875;49149;44;Homme;Cadre
+G7886;27941;50;Homme;Ouvrier
+G7887;37166;38;Femme;Cadre
+G7908;30349;47;Homme;Technicien
+G7919;27783;32;Homme;Cadre
+G7930;21387;44;Homme;Ouvrier
+G7961;40738;38;Homme;Cadre
+G7972;21761;26;Homme;Technicien
+G7983;25571;46;Homme;Ouvrier
+G7994;29759;48;Homme;Ouvrier
+G8005;52653;57;Homme;Cadre
+G8066;33550;52;Homme;Prof Interm
+G8077;49678;57;Femme;Cadre
+G8098;42269;56;Femme;Prof Interm
+G8099;33112;60;Homme;Prof Interm
+G8100;24994;55;Homme;Technicien
+G8101;35518;54;Homme;Prof Interm
+G8172;41781;51;Homme;Cadre
+G8203;28037;46;Homme;Ouvrier
+G8214;24514;42;Homme;Technicien
+G8235;22670;34;Homme;Ouvrier
+G8236;27599;46;Femme;Prof Interm
+G8247;20468;30;Femme;Technicien
+G8258;35400;49;Homme;Prof Interm
+G8259;26721;48;Homme;Prof Interm
+G8260;22313;38;Homme;Ouvrier
+G8341;22423;32;Homme;Ouvrier
+G8352;20355;24;Homme;Ouvrier
+G8383;20645;38;Homme;Ouvrier
+G8394;26987;46;Homme;Ouvrier
+G8475;22274;25;Homme;Ouvrier
+G8557;22209;44;Homme;Ouvrier
+G8558;27264;34;Homme;Ouvrier
+G8559;16172;53;Femme;Ouvrier
+G8560;15349;65;Femme;Ouvrier
+G8571;19643;30;Femme;Technicien
+G8572;37585;53;Homme;Prof Interm
+G8583;22240;26;Homme;Ouvrier
+G8594;21887;26;Homme;Ouvrier
+G8605;20792;28;Homme;Ouvrier
+G8606;25254;46;Homme;Ouvrier
+G8637;42801;56;Homme;Cadre
+G8638;27550;57;Homme;Ouvrier
+G8659;29582;45;Homme;Prof Interm
+G8660;28394;42;Homme;Prof Interm
+G8671;22116;35;Homme;Ouvrier
+G8692;25576;42;Homme;Technicien
+G8693;25670;46;Homme;Technicien
+G8734;41457;60;Homme;Technicien
+G8755;26559;51;Homme;Ouvrier
+G8756;29062;50;Homme;Ouvrier
+G8787;28157;49;Homme;Ouvrier
+G8818;35762;47;Homme;Ouvrier
+G8829;51217;43;Homme;Cadre
+G8870;23938;40;Homme;Prof Interm
+G8881;44561;40;Homme;Prof Interm
+G8882;39440;36;Homme;Cadre
+G8913;21240;34;Homme;Ouvrier
+G8964;21009;34;Homme;Ouvrier
+G8985;29157;34;Homme;Ouvrier
+G8986;21760;33;Homme;Prof Interm
+G9017;23227;31;Homme;Ouvrier
+G9018;31694;28;Homme;Cadre
+G9039;24351;26;Homme;Ouvrier
+G9050;21617;23;Homme;Ouvrier
+G9061;20133;48;Homme;Technicien
+G9072;21053;35;Homme;Technicien
+G9103;26457;54;Homme;Cadre
+G9114;24629;34;Homme;Ouvrier
+G9116;24538;42;Homme;Prof Interm
+G9147;26818;52;Femme;Prof Interm
+G9168;29330;34;Homme;Technicien
+G9249;22915;56;Homme;Ouvrier
+G9250;44956;70;Homme;Cadre
+G9292;34961;30;Femme;Cadre
+G9303;25255;36;Homme;Technicien
+G9304;16173;52;Femme;Ouvrier
+G9315;22071;26;Homme;Ouvrier
+G9396;31518;46;Homme;Ouvrier
+G9437;41072;56;Homme;Technicien
+G9458;32414;48;Homme;Prof Interm
+G9469;30811;47;Homme;Technicien
+G9470;41572;43;Homme;Cadre
+G9491;20519;42;Homme;Ouvrier
+G9492;35238;36;Femme;Cadre
+G9493;20275;36;Femme;Ouvrier
+G9504;28679;44;Homme;Prof Interm
+G9535;49464;44;Homme;Cadre
+G9536;18269;33;Homme;Ouvrier
+G9547;28435;44;Homme;Technicien
+G9558;22926;39;Homme;Ouvrier
+G9559;29782;49;Homme;Ouvrier
+G9561;24160;38;Homme;Ouvrier
+G9602;23606;38;Homme;Ouvrier
+G9611;24212;33;Homme;Employé
+G9673;38122;54;Homme;Cadre
+G9684;24368;43;Homme;Employé
+G9755;29607;30;Homme;Technicien
+G9796;29512;44;Homme;Technicien
+G9827;35540;52;Homme;Cadre
+G9838;20947;48;Homme;Prof Interm
+G9839;34063;51;Homme;Prof Interm
+G9870;51409;44;Homme;Cadre
+G9881;26764;37;Homme;Technicien
+G9882;23740;46;Homme;Ouvrier
+G9903;24616;38;Homme;Technicien
+G9904;40162;44;Homme;Prof Interm
+G9905;24725;44;Homme;Technicien
+G9916;21246;36;Homme;Ouvrier
+G9927;40578;44;Homme;Prof Interm
+G9928;16927;58;Femme;Ouvrier
+G9970;17681;55;Homme;Ouvrier
+H1001;31243;46;Homme;Ouvrier
+H1052;31303;44;Homme;Cadre
+H1053;30612;44;Homme;Ouvrier
+H1064;22795;47;Homme;Prof Interm
+H1085;29230;44;Homme;Technicien
+H1096;41383;46;Homme;Cadre
+H1097;34413;34;Homme;Cadre
+H1120;31956;52;Homme;Technicien
+H1129;20743;24;Femme;Ouvrier
+H1161;30999;43;Homme;Technicien
+H1183;21813;31;Homme;Technicien
+H1224;19221;38;Femme;Ouvrier
+H1266;24143;52;Homme;Technicien
+H1297;25874;44;Homme;Prof Interm
+H1319;36159;38;Homme;Employé
+H1338;42556;44;Homme;Cadre
+H1379;36350;36;Homme;Employé
+H1400;48031;46;Homme;Cadre
+H1441;29806;43;Homme;Ouvrier
+H1628;48827;37;Homme;Cadre
