@@ -28,9 +28,18 @@ mean(iris5$Salaire.annuel.net)
 sd(iris5$Salaire.annuel.net)
 length(iris5$Salaire.annuel.net)
 
+var.test(iris4$Salaire.annuel.net, iris5$Salaire.annuel.net)
+
+#p-value > alpha Conserve H0 donc on dit que les variances sont égaux
+
+t.test(iris4$Salaire.annuel.net, iris5$Salaire.annuel.net)
+#p-value < alpha donc on rejete H0 et oui machin est supérieur.
+
 
 #PARTIE C ANOVA
-
+boxplot(assur$Salaire.annuel.net, assur$CSP, whisklty = 1,
+        boxfill=c("mistyrose2","cadetblue3","bisque3","aquamarine3",
+                  main="R´epartition des clients suivant leur temps d’attente"))
 
 
 #PARTIE D
@@ -44,6 +53,6 @@ abline(regmodel)
 plot(assur$Salaire.annuel.net, residuals(regmodel),pch=16,col="red")
 abline(h = 0)
 
-car.qqPlot(residuals(regmodel),pch=16)
+qqPlot(residuals(regmodel),pch=16)
 
 summary(regmodel)
