@@ -1,4 +1,4 @@
-assur <- read.csv("Data.csv", sep = ";", row.names = 1)
+assur <- read.csv("Data.csv",sep=";",dec=".",header=TRUE, row.names=1, stringsAsFactors=TRUE)
 head(assur)
 
 
@@ -28,19 +28,18 @@ mean(iris5$Salaire.annuel.net)
 sd(iris5$Salaire.annuel.net)
 length(iris5$Salaire.annuel.net)
 
+boxplot(iris4$Salaire.annuel.net, iris5$Salaire.annuel.net, whisklty = 1, boxfill=c("mistyrose2","cadetblue3", main="Re ́partition des clients suivant leur temps d’attente"))
+
 var.test(iris4$Salaire.annuel.net, iris5$Salaire.annuel.net)
 
 #p-value > alpha Conserve H0 donc on dit que les variances sont égaux
 
-t.test(iris4$Salaire.annuel.net, iris5$Salaire.annuel.net)
+t.test(iris5$Salaire.annuel.net, alternative = "greater", mu=mean(iris4$Salaire.annuel.net)) #A vérifier
 #p-value < alpha donc on rejete H0 et oui machin est supérieur.
 
 
 #PARTIE C ANOVA
-boxplot(assur$Salaire.annuel.net, assur$CSP, whisklty = 1,
-        boxfill=c("mistyrose2","cadetblue3","bisque3","aquamarine3",
-                  main="R´epartition des clients suivant leur temps d’attente"))
-
+boxplot(assur$Salaire.annuel.net~assur$CSP, data=assur, whisklty = 2, boxfill=c("mistyrose2","cadetblue3","bisque3","aquamarine3", "mistyrose3"), main="Répartition des clients suivant leur temps d’attente", legend=TRUE)
 
 #PARTIE D
 install.packages("car")

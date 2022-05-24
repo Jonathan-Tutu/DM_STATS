@@ -1,0 +1,198 @@
+Identifiant;Agence;Satisfaction;Distance;Attente;Visites
+STC1;St Chamond;Plutôt satisfait;8.3;14;1
+STE2;St Etienne;Tout à fait satisfait;4;6.9;0
+STC3;St Chamond;Tout à fait satisfait;4.9;10;1
+STE4;St Etienne;Plutôt satisfait;0.8;12.7;0
+STE5;St Etienne;Tout à fait satisfait;5.7;7.9;1
+STE6;St Etienne;Plutôt satisfait;3.9;8.3;3
+MON7;Montbrison;Plutôt satisfait;7.9;15.3;2
+ROA8;Roanne;Plutôt satisfait;5.7;9;1
+STE9;St Etienne;Plutôt satisfait;6.4;8.5;3
+STC10;St Chamond;Plutôt satisfait;5.4;16.5;1
+STE11;St Etienne;Plutôt satisfait;3.7;8.7;1
+STE12;St Etienne;Tout à fait satisfait;4;8.8;2
+MON13;Montbrison;Tout à fait satisfait;11.7;12.4;0
+STC14;St Chamond;Plutôt satisfait;7.5;14.8;1
+STE15;St Etienne;Plutôt satisfait;3.1;9;2
+STC16;St Chamond;Pas très satisfait;10.5;18.6;0
+STE17;St Etienne;Plutôt satisfait;4;9.2;0
+STC18;St Chamond;Plutôt satisfait;17.6;15.9;1
+MON19;Montbrison;Plutôt satisfait;6.2;13.2;4
+ROA20;Roanne;Pas très satisfait;8.4;10.8;0
+STC21;St Chamond;Pas très satisfait;3.9;14.2;0
+STE22;St Etienne;Tout à fait satisfait;0.4;9.4;0
+STE23;St Etienne;Plutôt satisfait;1.4;9.4;2
+ROA24;Roanne;Plutôt satisfait;3;10.9;1
+MON25;Montbrison;Plutôt satisfait;6.2;14.8;3
+STC26;St Chamond;Plutôt satisfait;2.5;15;1
+MON27;Montbrison;Plutôt satisfait;6.9;13.5;2
+STE28;St Etienne;Plutôt satisfait;2.5;9.8;0
+MON29;Montbrison;Pas très satisfait;9;16.8;1
+MON30;Montbrison;Plutôt satisfait;16.5;14.8;0
+STE31;St Etienne;Plutôt satisfait;1.6;10;1
+STC32;St Chamond;Pas très satisfait;7.9;17.5;5
+MON33;Montbrison;Pas très satisfait;6.9;13.8;1
+MON34;Montbrison;Pas très satisfait;6.5;16.8;1
+MON35;Montbrison;Plutôt satisfait;6.5;14.9;1
+STE36;St Etienne;Plutôt satisfait;1.6;10.3;1
+MON37;Montbrison;Pas du tout satisfait;11.8;15.3;0
+MON38;Montbrison;Plutôt satisfait;10.5;14.8;0
+STC39;St Chamond;Plutôt satisfait;10;15.5;3
+ROA40;Roanne;Tout à fait satisfait;4.9;6.5;2
+STE41;St Etienne;Plutôt satisfait;4.9;12.5;1
+STE42;St Etienne;Plutôt satisfait;6.7;10.5;2
+STE43;St Etienne;Plutôt satisfait;4.9;12.7;1
+STC44;St Chamond;Plutôt satisfait;10.3;16.5;0
+STE45;St Etienne;Tout à fait satisfait;5.7;10.8;2
+ROA46;Roanne;Pas très satisfait;11.8;10.3;1
+STE47;St Etienne;Plutôt satisfait;6.9;10.8;3
+STC48;St Chamond;Plutôt satisfait;8.3;15.7;3
+MON49;Montbrison;Plutôt satisfait;7.7;13.8;1
+STC50;St Chamond;Pas très satisfait;7.2;14.3;1
+ROA51;Roanne;Plutôt satisfait;5.7;8;0
+ROA52;Roanne;Tout à fait satisfait;8.2;6.4;1
+STE53;St Etienne;Plutôt satisfait;0.2;12.9;2
+ROA54;Roanne;Plutôt satisfait;7.7;9.3;3
+ROA55;Roanne;Plutôt satisfait;7.7;10.3;0
+STE56;St Etienne;Plutôt satisfait;5.9;11;1
+MON57;Montbrison;Plutôt satisfait;4.7;15.4;0
+STE58;St Etienne;Plutôt satisfait;2.7;11;3
+MON59;Montbrison;Plutôt satisfait;13;13.3;0
+ROA60;Roanne;Plutôt satisfait;5.2;6.5;0
+STC61;St Chamond;Plutôt satisfait;10.5;14.8;1
+MON62;Montbrison;Plutôt satisfait;5.2;15.8;0
+STE63;St Etienne;Pas du tout satisfait;3.2;11.3;1
+STE64;St Etienne;Plutôt satisfait;5.7;11.3;0
+STE65;St Etienne;Pas très satisfait;1.4;11.3;0
+STE66;St Etienne;Plutôt satisfait;4.9;13.3;4
+STE67;St Etienne;Plutôt satisfait;2.4;11.3;1
+STC68;St Chamond;Plutôt satisfait;4.7;14.9;0
+ROA69;Roanne;Pas très satisfait;2.5;13.8;0
+STE70;St Etienne;Plutôt satisfait;3.5;12.3;2
+STE71;St Etienne;Plutôt satisfait;4.9;11.4;4
+ROA72;Roanne;Plutôt satisfait;8.8;11.5;3
+MON73;Montbrison;Plutôt satisfait;5;15.3;1
+STE74;St Etienne;Plutôt satisfait;1.6;12.4;0
+ROA75;Roanne;Pas très satisfait;4.7;11.3;0
+ROA76;Roanne;Plutôt satisfait;11.8;8.4;2
+MON77;Montbrison;Tout à fait satisfait;7.9;11.4;2
+ROA78;Roanne;Plutôt satisfait;3.1;9.2;1
+STE79;St Etienne;Plutôt satisfait;3.1;11.5;1
+STC80;St Chamond;Pas très satisfait;7.2;15.9;1
+STE81;St Etienne;Plutôt satisfait;0.3;11.7;0
+STC82;St Chamond;Pas très satisfait;2.4;13.9;2
+ROA83;Roanne;Tout à fait satisfait;3.4;8.2;1
+STC84;St Chamond;Pas très satisfait;5.5;17;1
+ROA85;Roanne;Tout à fait satisfait;7.9;8.7;0
+STE86;St Etienne;Plutôt satisfait;3.9;12.8;1
+STE87;St Etienne;Pas du tout satisfait;5.4;11.8;2
+STC88;St Chamond;Tout à fait satisfait;8.3;13;2
+STE89;St Etienne;Plutôt satisfait;7.9;11.9;1
+MON90;Montbrison;Plutôt satisfait;7.5;11.7;0
+STC91;St Chamond;Plutôt satisfait;6;15;2
+STC92;St Chamond;Plutôt satisfait;5.9;13.3;2
+MON93;Montbrison;Pas du tout satisfait;13.8;17.3;0
+STE94;St Etienne;Plutôt satisfait;2.7;12.2;0
+ROA95;Roanne;Pas du tout satisfait;6;12;1
+STC96;St Chamond;Tout à fait satisfait;9.5;12.3;2
+STC97;St Chamond;Tout à fait satisfait;11.2;11.8;1
+MON98;Montbrison;Pas très satisfait;7.9;16.8;0
+STC99;St Chamond;Pas très satisfait;14.5;14;1
+ROA100;Roanne;Plutôt satisfait;3.9;9.9;2
+STC101;St Chamond;Pas très satisfait;9.7;17.6;1
+MON102;Montbrison;Pas très satisfait;13.5;16.8;3
+MON103;Montbrison;Plutôt satisfait;8.8;12.7;2
+STE104;St Etienne;Plutôt satisfait;4.2;12.3;0
+MON105;Montbrison;Pas du tout satisfait;10.2;16.3;1
+ROA106;Roanne;Plutôt satisfait;8.7;11.2;1
+STC107;St Chamond;Pas très satisfait;5.7;13;0
+ROA108;Roanne;Pas très satisfait;4.5;12.4;3
+STC109;St Chamond;Pas très satisfait;11.5;11.8;2
+STC110;St Chamond;Plutôt satisfait;14.4;14.5;1
+MON111;Montbrison;Plutôt satisfait;7.7;10.7;4
+STC112;St Chamond;Plutôt satisfait;6.2;14.8;1
+STE113;St Etienne;Pas très satisfait;3.4;12.5;0
+STC114;St Chamond;Pas du tout satisfait;8.2;17;1
+STC115;St Chamond;Pas du tout satisfait;6.4;18.5;2
+ROA116;Roanne;Tout à fait satisfait;9.4;9.4;1
+MON117;Montbrison;Plutôt satisfait;4.9;11.3;2
+STC118;St Chamond;Pas du tout satisfait;7.9;21.6;0
+STC119;St Chamond;Plutôt satisfait;7.2;15.5;1
+STC120;St Chamond;Tout à fait satisfait;9.2;11.4;2
+MON121;Montbrison;Tout à fait satisfait;12.8;11.8;1
+MON122;Montbrison;Pas très satisfait;9.7;16.1;0
+ROA123;Roanne;Plutôt satisfait;2.2;12.3;0
+STC124;St Chamond;Pas du tout satisfait;7.9;17;0
+MON125;Montbrison;Pas du tout satisfait;4.2;17.8;1
+MON126;Montbrison;Plutôt satisfait;5.5;14.3;0
+MON127;Montbrison;Pas du tout satisfait;15.3;13.4;0
+STC128;St Chamond;Pas du tout satisfait;7.7;18.6;3
+STC129;St Chamond;Plutôt satisfait;4.4;15.5;2
+ROA130;Roanne;Plutôt satisfait;11.4;8;1
+STE131;St Etienne;Plutôt satisfait;4.9;13.2;1
+ROA132;Roanne;Plutôt satisfait;10.8;9.8;2
+ROA133;Roanne;Plutôt satisfait;4.2;10.4;2
+ROA134;Roanne;Plutôt satisfait;7.4;12.3;0
+MON135;Montbrison;Plutôt satisfait;1.9;10.3;0
+ROA136;Roanne;Pas du tout satisfait;5.5;11.9;0
+MON137;Montbrison;Plutôt satisfait;1.1;15.8;0
+MON138;Montbrison;Plutôt satisfait;5.2;13.8;0
+MON139;Montbrison;Plutôt satisfait;5.4;15.2;1
+STC140;St Chamond;Plutôt satisfait;5.4;14.8;1
+STE141;St Etienne;Plutôt satisfait;5.2;13.4;0
+ROA142;Roanne;Tout à fait satisfait;3.2;9.3;0
+MON143;Montbrison;Tout à fait satisfait;7.5;10.8;1
+MON144;Montbrison;Tout à fait satisfait;8.4;8.3;0
+STC145;St Chamond;Plutôt satisfait;5.2;13.3;3
+STE146;St Etienne;Pas très satisfait;0.3;13.5;1
+MON147;Montbrison;Plutôt satisfait;5.5;10.4;1
+STC148;St Chamond;Pas très satisfait;6.9;16.8;0
+STC149;St Chamond;Pas très satisfait;7.2;15.3;0
+ROA150;Roanne;Plutôt satisfait;8.4;10.3;0
+MON151;Montbrison;Pas très satisfait;9;13.2;0
+MON152;Montbrison;Plutôt satisfait;6.9;13.3;1
+ROA153;Roanne;Tout à fait satisfait;6.4;9.7;0
+MON154;Montbrison;Pas du tout satisfait;18.8;14.9;0
+MON155;Montbrison;Pas très satisfait;18.5;15.9;0
+STE156;St Etienne;Pas très satisfait;4.4;13.8;0
+MON157;Montbrison;Plutôt satisfait;16.9;15.4;0
+ROA158;Roanne;Pas du tout satisfait;4.9;13;2
+STE159;St Etienne;Pas très satisfait;2.6;13.8;3
+STC160;St Chamond;Plutôt satisfait;3.2;16.3;1
+STC161;St Chamond;Plutôt satisfait;7;13.3;2
+ROA162;Roanne;Tout à fait satisfait;6.5;7.4;1
+STC163;St Chamond;Pas très satisfait;5.7;17.8;0
+STC164;St Chamond;Pas très satisfait;8.8;11.4;0
+ROA165;Roanne;Tout à fait satisfait;2.2;8.8;2
+STE166;St Etienne;Pas très satisfait;4;14.3;1
+MON167;Montbrison;Plutôt satisfait;13.9;11.2;2
+ROA168;Roanne;Plutôt satisfait;4.2;13.8;2
+STE169;St Etienne;Plutôt satisfait;0.6;14.4;0
+MON170;Montbrison;Pas du tout satisfait;5.7;17.3;0
+ROA171;Roanne;Plutôt satisfait;6.9;12;2
+ROA172;Roanne;Tout à fait satisfait;1;8.4;0
+STE173;St Etienne;Plutôt satisfait;2.9;14.7;0
+MON174;Montbrison;Plutôt satisfait;9.9;13.2;0
+ROA175;Roanne;Plutôt satisfait;6.7;9.8;1
+ROA176;Roanne;Plutôt satisfait;3.1;11.5;2
+STE177;St Etienne;Plutôt satisfait;3.9;14.8;0
+STC178;St Chamond;Pas du tout satisfait;5.7;17.8;0
+MON179;Montbrison;Plutôt satisfait;3.9;12.8;0
+STE180;St Etienne;Plutôt satisfait;6;14.9;1
+STC181;St Chamond;Pas du tout satisfait;5.5;20;0
+STC182;St Chamond;Pas très satisfait;7.4;14;1
+STC183;St Chamond;Plutôt satisfait;5.4;14.7;2
+ROA184;Roanne;Plutôt satisfait;3.1;10.8;0
+STE185;St Etienne;Pas du tout satisfait;1.9;15.3;1
+STC186;St Chamond;Tout à fait satisfait;7;13;0
+STE187;St Etienne;Pas très satisfait;4.2;15.5;1
+ROA188;Roanne;Tout à fait satisfait;9.7;8.2;0
+STC189;St Chamond;Pas très satisfait;4.7;16.1;0
+MON190;Montbrison;Plutôt satisfait;18.5;12.3;1
+STE191;St Etienne;Pas très satisfait;1.1;15.8;0
+STE192;St Etienne;Pas du tout satisfait;1.6;15.9;0
+ROA193;Roanne;Tout à fait satisfait;15.5;7;1
+STE194;St Etienne;Pas du tout satisfait;4.4;16.5;0
+MON195;Montbrison;Pas du tout satisfait;14.8;12.8;0
+STE196;St Etienne;Pas du tout satisfait;1.6;16.8;3
+ROA197;Roanne;Tout à fait satisfait;2.5;8.3;2
