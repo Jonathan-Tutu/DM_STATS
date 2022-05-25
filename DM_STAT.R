@@ -72,8 +72,8 @@ pairwise.t.test(iris6$Salaire.annuel.net, iris6$CSP, p.adjust.method = "fdr")
 install.packages("car")
 library("car")
 
-plot(iris4$Salaire.annuel.net, iris4$Age, pch=16)
-regmodel = lm(iris4$Salaire.annuel.net~iris4$Age)
+plot(Salaire.annuel.net ~ Age, data=iris4, pch=16)
+regmodel<-lm( Salaire.annuel.net ~ Age, data=iris4)
 abline(regmodel)
 
 plot(iris4$Age, residuals(regmodel),pch=16,col="red")
@@ -83,3 +83,5 @@ qqPlot(residuals(regmodel),pch=16)
 
 cor.test(iris4$Age, iris4$Salaire.annuel.net, alternative="greater", method="pearson")
 summary(regmodel)
+
+
