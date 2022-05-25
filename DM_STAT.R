@@ -1,7 +1,7 @@
 assur <- read.csv("Data.csv",sep=";",dec=".",header=TRUE, row.names=1, stringsAsFactors=TRUE)
 head(assur)
 
-
+#Table de contigence
 test = table(assur$CSP, assur$Sexe)
 test
 
@@ -11,7 +11,8 @@ test2
 barplot(test2, col =c("green4","red1","red2","red3","red4") ,
         main="Niveau de satisfaction par test", xlim=c(0,5), legend=TRUE)
 
-prop.test(test2,alternative="greater")
+#Test du chi2
+chisq.test(test)
 
 
 #PARTIE B STUDENT
@@ -34,24 +35,49 @@ var.test(iris4$Salaire.annuel.net, iris5$Salaire.annuel.net)
 
 #p-value > alpha Conserve H0 donc on dit que les variances sont égaux
 
-t.test(iris5$Salaire.annuel.net, alternative = "greater", mu=mean(iris4$Salaire.annuel.net)) #A vérifier
+t.test(iris5$Salaire.annuel.net, iris4$Salaire.annuel.net,  alternative = "greater", var.equal=TRUE) #A vérifier
 #p-value < alpha donc on rejete H0 et oui machin est supérieur.
 
 
 #PARTIE C ANOVA
-boxplot(assur$Salaire.annuel.net~assur$CSP, data=assur, whisklty = 2, boxfill=c("mistyrose2","cadetblue3","bisque3","aquamarine3", "mistyrose3"), main="Répartition des clients suivant leur temps d’attente", legend=TRUE)
+iris6 = subset(assur, Sexe == "Femme")
+boxplot(iris6$Salaire.annuel.net~iris6$CSP, data=iris4, whisklty = 2, boxfill=c("mistyrose2","cadetblue3","bisque3","aquamarine3", "mistyrose3"), main="Répartition des clients suivant leur temps d’attente", legend=TRUE)
+
+femmeOuv = subset(assur, Sexe == "Femme" & CSP == "Ouvrier")
+shapiro.test(femmeOuv$Salaire.annuel.net)
+
+femmeCadre = subset(assur, Sexe == "Femme" & CSP == "Cadre")
+shapiro.test(femmeCadre$Salaire.annuel.net)
+
+femmeEmploy = subset(assur, Sexe == "Femme" & CSP == "Employé")
+shapiro.test(femmeEmploy$Salaire.annuel.net)
+
+femmeInterm = subset(assur, Sexe == "Femme" & CSP == "Prof Interm")
+shapiro.test(femmeInterm$Salaire.annuel.net)
+
+femmeInterm = subset(assur, Sexe == "Femme" & CSP == "Technicien")
+shapiro.test(femmeInterm$Salaire.annuel.net)
+
+
+bartlett.test(iris6$Salaire.annuel.net~iris6$CSP)
+
+#Avec correction de welch car hétérogénéité des variances 
+oneway.test(iris6$Salaire.annuel.net ~ iris6$CSP, data=iris6, var.equal = FALSE)
+
+#CSP -> Donc il y a un impact sur le salaire des femmes
 
 #PARTIE D
 install.packages("car")
 library("car")
 
-plot(assur$Salaire.annuel.net, assur$Age, pch=16)
-regmodel = lm(assur$Salaire.annuel.net ~ assur$Age)
+plot(iris4$Salaire.annuel.net, iris4$Age, pch=16)
+regmodel = lm(iris4$Salaire.annuel.net~iris4$Age)
 abline(regmodel)
 
-plot(assur$Salaire.annuel.net, residuals(regmodel),pch=16,col="red")
+plot(iris4$Age, residuals(regmodel),pch=16,col="red")
 abline(h = 0)
 
 qqPlot(residuals(regmodel),pch=16)
 
+cor.test(iris4$Age, iris4$Salaire.annuel.net, alternative="greater", method="pearson")
 summary(regmodel)
