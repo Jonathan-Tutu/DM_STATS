@@ -66,6 +66,8 @@ oneway.test(iris6$Salaire.annuel.net ~ iris6$CSP, data=iris6, var.equal = FALSE)
 
 #CSP -> Donc il y a un impact sur le salaire des femmes
 
+pairwise.t.test(iris6$Salaire.annuel.net, iris6$CSP, p.adjust.method = "fdr")
+
 #PARTIE D
 install.packages("car")
 library("car")
