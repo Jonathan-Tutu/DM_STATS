@@ -19,12 +19,12 @@ chisq.test(TabCSPSEXE)
 subsetCadre <- subset(assur, assur$CSP == "Cadre") #On sépare en sous ensemble
 tabSalaireCadre = table(subsetCadre$Salaire.annuel.net, subsetCadre$Sexe)
 
-FemmeCadre = subset(assur, Sexe == "Femme" & CSP == "Cadre")
+FemmeCadre = subset(subsetCadre, Sexe == "Femme")
 mean(FemmeCadre$Salaire.annuel.net)
 sd(FemmeCadre$Salaire.annuel.net)
 length(FemmeCadre$Salaire.annuel.net)
 
-HommeCadre = subset(assur, Sexe == "Homme" & CSP == "Cadre")
+HommeCadre = subset(subsetCadre, Sexe == "Homme")
 mean(HommeCadre$Salaire.annuel.net)
 sd(HommeCadre$Salaire.annuel.net)
 length(HommeCadre$Salaire.annuel.net)
@@ -41,39 +41,40 @@ t.test(HommeCadre$Salaire.annuel.net, FemmeCadre$Salaire.annuel.net,  alternativ
 
 #PARTIE C ANOVA
 SubsetFemme = subset(assur, Sexe == "Femme")
-boxplot(SubsetFemme$Salaire.annuel.net~SubsetFemme$CSP, data=SubsetFemme, whisklty = 2, boxfill=c("mistyrose2","cadetblue3","bisque3","aquamarine3", "bisque1"), main="Répartition des clients suivant leur temps d’attente", legend=TRUE)
+boxplot(SubsetFemme$Salaire.annuel.net~SubsetFemme$CSP, data=SubsetFemme, whisklty = 2, 
+        boxfill=c("mistyrose2","cadetblue3","bisque3","aquamarine3", "bisque1"), 
+        main="Salaire en fonction de la Catégorie socioprofessionnelle", legend=TRUE)
 
-femmeOuv = subset(assur, Sexe == "Femme" & CSP == "Ouvrier")
+femmeOuv = subset(SubsetFemme, CSP == "Ouvrier")
 shapiro.test(femmeOuv$Salaire.annuel.net)
 
-femmeCadre = subset(assur, Sexe == "Femme" & CSP == "Cadre")
+femmeCadre = subset(SubsetFemme, CSP == "Cadre")
 shapiro.test(femmeCadre$Salaire.annuel.net)
 
-femmeEmploy = subset(assur, Sexe == "Femme" & CSP == "Employé")
+femmeEmploy = subset(SubsetFemme, CSP == "Employé")
 shapiro.test(femmeEmploy$Salaire.annuel.net)
 
-femmeInterm = subset(assur, Sexe == "Femme" & CSP == "Prof Interm")
+femmeInterm = subset(SubsetFemme, CSP == "Prof Interm")
 shapiro.test(femmeInterm$Salaire.annuel.net)
 
-femmeInterm = subset(assur, Sexe == "Femme" & CSP == "Technicien")
+femmeInterm = subset(SubsetFemme, CSP == "Technicien")
 shapiro.test(femmeInterm$Salaire.annuel.net)
 
 
-bartlett.test(iris6$Salaire.annuel.net~iris6$CSP)
+bartlett.test(SubsetFemme$Salaire.annuel.net~SubsetFemme$CSP)
 
 #Avec correction de welch car hétérogénéité des variances 
-oneway.test(iris6$Salaire.annuel.net ~ iris6$CSP, data=iris6, var.equal = FALSE)
+oneway.test(Salaire.annuel.net ~CSP, data=SubsetFemme, var.equal = FALSE)
 
 #CSP -> Donc il y a un impact sur le salaire des femmes
-
-pairwise.t.test(iris6$Salaire.annuel.net, iris6$CSP, p.adjust.method = "fdr")
+pairwise.t.test(SubsetFemme$Salaire.annuel.net, SubsetFemme$CSP, p.adjust.method = "fdr")
 
 #PARTIE D
 install.packages("car")
 library("car")
 
-plot(Salaire.annuel.net ~ Age, data=FemmeCadre, pch=16)
-regmodel<-lm( Salaire.annuel.net ~ Age, data=FemmeCadre)
+plot(Salaire.annuel.net~Age, data=FemmeCadre, pch=16)
+regmodel<-lm( Salaire.annuel.net~Age, data=FemmeCadre)
 abline(regmodel)
 
 plot(FemmeCadre$Age, residuals(regmodel),pch=16,col="red")
@@ -82,6 +83,7 @@ abline(h = 0)
 qqPlot(residuals(regmodel),pch=16)
 
 cor.test(FemmeCadre$Age, FemmeCadre$Salaire.annuel.net, alternative="greater", method="pearson")
+
 summary(regmodel)
 
 
