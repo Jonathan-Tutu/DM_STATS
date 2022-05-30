@@ -29,7 +29,8 @@ mean(HommeCadre$Salaire.annuel.net)
 sd(HommeCadre$Salaire.annuel.net)
 length(HommeCadre$Salaire.annuel.net)
 
-boxplot(FemmeCadre$Salaire.annuel.net, HommeCadre$Salaire.annuel.net, whisklty = 1, boxfill=c("mistyrose2","cadetblue3"), main="Distribution des salaires", ylab="Salaires en euros", legend=TRUE)
+boxplot(FemmeCadre$Salaire.annuel.net, HommeCadre$Salaire.annuel.net, whisklty = 1, boxfill=c("mistyrose2","cadetblue3"), 
+        main="Distribution des salaires", legend=TRUE)
        
 var.test(FemmeCadre$Salaire.annuel.net, HommeCadre$Salaire.annuel.net)
 
@@ -81,6 +82,7 @@ plot(FemmeCadre$Age, residuals(regmodel),pch=16,col="red")
 abline(h = 0)
 
 qqPlot(residuals(regmodel),pch=16)
+shapiro.test(residuals(regmodel))
 
 cor.test(FemmeCadre$Age, FemmeCadre$Salaire.annuel.net, alternative="greater", method="pearson")
 
